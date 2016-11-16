@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="progressbar">
+        <attr name="paintBold"  format="dimension"/>
+        <attr name="linelength" format="dimension"/>
+        <attr name="linenumber" format="integer"/>
+        <attr name="max"   format="integer"/>
+        <attr name="progress"   format="integer"/>
+        <attr name="backgroundColor"    format="reference|color"/>
+        <attr name="beforeColor" format="reference|color"/>
+        <attr name="textColor" format="reference|color"/>
+    </declare-styleable>
+    
+    <declare-styleable name="clock">
+        <attr name="secondSize" format="integer"/>
+        <attr name="minSize" format="integer"/>
+        <attr name="hourSize" format="integer"/>
+        <attr name="secondlength" format="dimension"/>
+        <attr name="minlength" format="dimension"/>
+        <attr name="hourlength" format="dimension"/>
+        <attr name="secondcolor" format="reference|color"/>
+        <attr name="mincolor" format="reference|color"/>
+        <attr name="hourcolor" format="reference|color"/>
+        <attr name="scalelength" format="dimension"/>
+        <attr name="linenum" format="integer"/>
+        <attr name="circlewidth" format="dimension"/>
+    </declare-styleable>
+</resources>
